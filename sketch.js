@@ -44,7 +44,7 @@ function setup() {
 function draw() {
   background (0);
  
-   camera.velocityY = 10;
+ camera.x =  rocket.x;
   
   
   if(space.y > 400){
