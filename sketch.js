@@ -44,7 +44,7 @@ function setup() {
 function draw() {
   background (0);
  
-  
+   camera.velocityY = 10;
   
   
   if(space.y > 400){
